@@ -1,0 +1,26 @@
+timelineData = [
+    {
+        "duration": "February 2022 - April 2022",
+        "company": "HackBright Academy",
+        "title": "Software Engineering Fellowship",
+        "responsibilities": "Collaborated on pair programming with cohortmates on daily lab projects. Built and deployed a web application on AWS using skilss and knowledge across fundamentals of data structures, algorithms, database, full-stack and testing",
+    },
+    {
+        "duration": "November 2017 - June 2021",
+        "company": "Standard Chartered Bank, North America",
+        "title": "Sanctions Filtering Associate",
+        "responsibilities": "Identified and investigated possible matches related to sanctioned parties and countries, money laundering and terrorist financing organizations."
+    },
+    {
+        "duration": "March 2014 - March 2016",
+        "company": "Masan Consumer Corporation",
+        "title": "Executive Assistant",
+        "responsibilities": "Arranged and managed CEO's meeting calendar. Coordinated across various stakeholders to assist CEO in business operation."
+    },
+    {
+        "duration": "April 2011 - December 2013",
+        "company": "EQuest Academy",
+        "title": "Academic Course Facilitator",
+        "responsibilities": "Built curriculum, recruited and trained English teachers."
+    }
+]

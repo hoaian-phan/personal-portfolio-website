@@ -11,7 +11,7 @@ const Portfolio = () => {
         <article>
           <div>
             <div>
-              <img src={img} alt="playdate birdies"/>
+              <img src={img} class="resize-photo" alt="playdate birdies"/>
             </div>
             <h3>Playdate Birdies Web Application</h3>
             <p>Technologies: Python, Flask, JavaScript, HTML, Bootstrap, Google Map APIs, Sendgrid APIs, ASW Lightsail</p>

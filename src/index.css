@@ -29,11 +29,10 @@ h2 {
 }
 
 .resize-photo {
-    width: 275px;
+    height: 400px;
 }
 
 .navbar {
-    box-shadow: 0 6px 20px rgb(0 0 0 / 20%);
     width: 75%;
     text-align: center;
 }
@@ -46,3 +45,14 @@ a, a:hover, a:active, a:visited, a:focus {
     text-decoration:none;
     color: white;
 }
+
+.shadow {
+    box-shadow: 0 6px 20px rgb(0 0 0 / 20%);
+}
+
+.border-navy {
+    border-radius: 50px;
+    border-color: #051537;
+    width: 400px;
+}
+

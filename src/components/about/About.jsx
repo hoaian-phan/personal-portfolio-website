@@ -3,35 +3,32 @@ import me from '../../assets/me_about.jpg'
 
 const About = () => {
   return (
-    <section id='about'>
-      <h5>I'm thrilled to tell you</h5>
-      <h2> About Me</h2>
+    <section id='about' class="mt-5">
+      <h6 class="text-center">I'm excited to tell you</h6>
+      <h2 class="text-center"> About Me</h2>
 
-      <div>
-        <div>
+      <div class="m-5">
+        
           <div>
-            <img src={me} alt="About me" />
+            <img src={me} class="img-thumbnail resize-photo" alt="About me" />
           </div>
-        </div>
+        
 
-        <div>
-          <div>
-            <article>
-              <h4>Who I Am</h4>
+        <div class="container">
+          <div class="d-inline p-5">
+            <article class="border shadow bg-navy border-navy pt-3 pt-2">
+              <h5 class="text-center">Who I Am</h5>
                 <ul>
                   <li>An aspiring full-stack software engineer</li>
                   <li>A lifetime learner of technologies</li>
                   <li>A proud mom of my wonderful toddler</li>
                 </ul>
-              
             </article>
+            
           </div>
-        </div>
-
-        <div>
-          <div>
-            <article>
-              <h4>What I Do</h4>
+          <div class="d-inline p-2">
+            <article class="border shadow bg-navy border-navy pt-3 pt-2">
+              <h5 class="text-center">What I Do</h5>
                 <ul>
                   <li>Deliver solutions that excite customers </li>
                   <li>Use software to solve non-software problems </li>
@@ -41,10 +38,10 @@ const About = () => {
           </div>
         </div>
 
-        <div>
-          <div>
-            <article>
-              <h4>What I Believe</h4>
+        <div class="container">
+          <div class="d-inline p-2">
+            <article class="border shadow bg-navy border-navy pt-3 pt-2">
+              <h5 class="text-center">What I Believe</h5>
                 <ul>
                   <li>I believe in self-motivation and determination</li>
                   <li>I believe in the power of constructive feedback</li>
@@ -52,21 +49,18 @@ const About = () => {
                 </ul>
             </article>
           </div>
-        </div>
 
-        <div>
-          <div>
-            <article>
-              <h4>How I Grow</h4>
+          <div class="d-inline p-2">
+            <article class="border shadow bg-navy border-navy pt-3 pt-2">
+              <h5 class="text-center">How I Learn</h5>
                 <ul>
                   <li>I accept and get comfortable with the unknowns</li>
                   <li>I get excited about learning new things</li>
-                  <li>I ask questions. For me, it's the best way to learn and grow</li>
+                  <li>I ask questions. It's the best way to learn and grow</li>
                 </ul>
             </article>
           </div>
         </div>
-
       </div>
 
 

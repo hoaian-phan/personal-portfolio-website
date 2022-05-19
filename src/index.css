@@ -32,3 +32,17 @@ h2 {
     width: 275px;
 }
 
+.navbar {
+    box-shadow: 0 6px 20px rgb(0 0 0 / 20%);
+    width: 75%;
+    text-align: center;
+}
+
+.bg-blue {
+    background: #051537
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+    color: white;
+}

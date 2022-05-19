@@ -5,11 +5,11 @@ import Connect from './connect'
 
 const Header = () => {
   return (
-    <header>
-      <div>
-        <h5> Hello I'm</h5>
+    <header class="container">
+      <div class="text-center">
+        <h6> Hello I'm</h6>
         <h1> Hoai-An Phan</h1>
-        <h5> Full-stack Software Engineer</h5>
+        <h6> Full-stack Software Engineer</h6>
         <CTA />
         <Connect />
         <div>

@@ -1,4 +1,28 @@
 body {
-    background: black;
+    font-family: 'DM Serif Display', serif;
+    background: #051537;
     color: white;
 }
+
+h3 {
+    color: #0458AB
+}
+
+h2 {
+    color: #00A5E9
+}
+
+.text-light-blue {
+    color: #00A5E9;
+}
+
+.text-navy {
+    color: #0458AB;
+}
+
+.bg-navy {
+    background: #051537;
+}
+
+
+

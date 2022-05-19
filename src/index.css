@@ -1,7 +1,9 @@
 body {
     font-family: 'DM Serif Display', serif;
-    background: #051537;
     color: white;
+    background: url("assets/dark-paths-bg.webp");
+    background-color: #051537;
+    background-size: auto;
 }
 
 h3 {

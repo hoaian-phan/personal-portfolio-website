@@ -14,9 +14,7 @@ h2 {
     color: #00A5E9
 }
 
-.text-light-blue {
-    color: #00A5E9;
-}
+
 
 .text-navy {
     color: #051537;
@@ -58,3 +56,6 @@ a, a:hover, a:active, a:visited, a:focus {
     width: 400px;
 }
 
+.text-light-blue {
+    color: #00A5E9;
+}

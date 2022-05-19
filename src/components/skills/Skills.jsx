@@ -2,102 +2,58 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <section id='skills'>
-      <h5> What I Know</h5>
-      <h2>My Technical Skills</h2>
+    <section id='skills' class="mt-5">
+      <h6 class="text-center"> What I Know</h6>
+      <h2 class="text-center">My Technical Skills</h2>
 
-      <div>
-        <div>
-          <h3>Languages</h3>
+      <div class="container m-5">
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="col-12 col-xxl-3 border shadow bg-navy border-navy pt-3 m-4">
+            <h4 class="text-center">Languages</h4>
             <div>
-              <article>
-                <h4>Python</h4>
-              </article>
-
-              <article>
-                <h4>JavaScript</h4>
-              </article>
-
-              <article>
-                <h4>C++</h4>
-              </article>
-
-              <article>
-                <h4>SQL</h4>
-              </article>
-
-              <article>
-                <h4>HTML</h4>
-              </article>
-
-              <article>
-                <h4>CSS</h4>
-              </article>
+              <ul>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>C++</li>
+                <li>React</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
             </div>
-        </div>
+          </div>
+        
 
-        <div>
-          <h3>Libraries and Frameworks</h3>
+        
+          <div class="col-12 col-xxl-3 border shadow bg-navy border-navy pt-3 m-4">
+            <h4 class="text-center">Libraries and Frameworks</h4>
             <div>
-              <article>
-                <h4>Flask</h4>
-              </article>
-
-              <article>
-                <h4>SQLAlchemy</h4>
-              </article>
-
-              <article>
-                <h4>Celery</h4>
-              </article>
-
-              <article>
-                <h4>React</h4>
-              </article>
-
-              <article>
-                <h4>Jinja</h4>
-              </article>
-
-              <article>
-                <h4>Bootstrap</h4>
-              </article>
-
-              <article>
-                <h4>PostgreSQL</h4>
-              </article>
+              <ul>
+                <li>Flask</li>
+                <li>SQLAlchemy</li>
+                <li>React</li>
+                <li>Jinja</li>
+                <li>Bootstrap</li>
+                <li>PostgreSQL</li>
+              </ul>
             </div>
-        </div>
+          </div>
+        
 
-        <div>
-          <h3>Industry Tools</h3>
+        
+          <div class="col-12 col-xxl-3 border shadow bg-navy border-navy pt-3 m-4">
+            <h4 class="text-center">Industry Tools</h4>
             <div>
-              <article>
-                <h4>Git / GitHub</h4>
-              </article>
-
-              <article>
-                <h4>Shell / Command line</h4>
-              </article>
-
-              <article>
-                <h4>Docker</h4>
-              </article>
-
-              <article>
-                <h4>Redis</h4>
-              </article>
-
-              <article>
-                <h4>AWS Cloud</h4>
-              </article>
-
-              <article>
-                <h4>Heroku</h4>
-              </article>
+              <ul>
+                <li>Git / GitHub</li>
+                <li>Shell / Command line</li>
+                <li>Docker</li>
+                <li>Redis</li>
+                <li>AWS Cloud</li>
+                <li>Heroku</li>
+              </ul>
             </div>
+          </div>
         </div>
-
       </div>
 
     </section>

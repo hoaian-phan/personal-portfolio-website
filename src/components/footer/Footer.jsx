@@ -1,26 +1,23 @@
 import React from 'react'
 import {GrLinkedin} from 'react-icons/gr'
 import {GrGithub} from 'react-icons/gr'
+import {AiOutlineMail} from 'react-icons/ai'
 
 const Footer = () => {
   return (
-    <footer>
-      <a href="#">HOAI-AN PHAN</a>
+    <footer class="bg-light-blue mt-5">
+      <h6 class="text-center pt-3">Hope to hear from you soon. Enjoy your day from</h6>
+      <a href="#"><h3 class="text-center pt-2">HOAI-AN PHAN</h3></a>
 
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Technical skills</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-
-      <div>
-      <a href="https://linkedin.com/in/hoai-an-phan" target="_blank" rel="noreferrer"><GrLinkedin></GrLinkedin></a>
+      <div class="text-center">
+        <a href="https://linkedin.com/in/hoai-an-phan" target="_blank" rel="noreferrer"><GrLinkedin></GrLinkedin></a>
+        &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; 
         <a href="https://github.com/hoaian-phan" target="_blank" rel="noreferrer"><GrGithub></GrGithub></a>
+        &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; 
+        <a href="mailto:hoaian.phan.sde2022@gmail.com" target="_blank" rel="noreferrer"><AiOutlineMail></AiOutlineMail></a>
+
       </div>
+      <br /><br /><br />
     </footer>
   )
 }

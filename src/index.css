@@ -17,12 +17,18 @@ h2 {
 }
 
 .text-navy {
-    color: #0458AB;
+    color: #051537;
 }
 
 .bg-navy {
     background: #051537;
 }
 
+.bg-light-blue {
+    background: #00A5E9;
+}
 
+.resize-photo {
+    width: 275px;
+}
 

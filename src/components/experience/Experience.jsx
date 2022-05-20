@@ -17,7 +17,7 @@ const Experience = () => {
                     <h5 class="text-light-blue">Feb 2022 - Apr 2022</h5>
                     <h4>HackBright Academy</h4>
                     <p>Software Engineering Fellowship</p>
-                    <p>Collaborated on pair programming with cohortmates on daily lab projects. Built and deployed a web application on AWS using skilss and knowledge across fundamentals of data structures, algorithms, database, full-stack and testing.</p>
+                    <p>Collaborated on pair programming with cohortmates on daily lab projects. Built and deployed a web application on AWS using skills and knowledge across fundamentals of data structures, algorithms, database, full-stack and testing.</p>
                   </div>
                 </div>
               </div>

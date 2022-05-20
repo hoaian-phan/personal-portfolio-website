@@ -1,7 +1,5 @@
 import React from 'react'
 import HoaiAnPhanResume from '../../assets/HoaiAnPhanResume.pdf'
-import {GrLinkedin} from 'react-icons/gr'
-import {GrGithub} from 'react-icons/gr'
 
 const CTA = () => {
   return (

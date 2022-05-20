@@ -3,13 +3,14 @@ import React from 'react'
 const Skills = () => {
   return (
     <section id='skills' class="mt-5">
+      <br /><br />
       <h6 class="text-center"> What I Know</h6>
       <h2 class="text-center">My Technical Skills</h2>
 
       <div class="container m-5">
         <div class="row d-flex align-items-center justify-content-center">
           <div class="col-12 col-xxl-3 border shadow bg-navy border-navy pt-3 m-4">
-            <h4 class="text-center">Languages</h4>
+            <h5 class="text-center">Languages</h5>
             <div>
               <ul>
                 <li>Python</li>
@@ -25,7 +26,7 @@ const Skills = () => {
 
         
           <div class="col-12 col-xxl-3 border shadow bg-navy border-navy pt-3 m-4">
-            <h4 class="text-center">Libraries and Frameworks</h4>
+            <h5 class="text-center">Libraries and Frameworks</h5>
             <div>
               <ul>
                 <li>Flask</li>
@@ -41,7 +42,7 @@ const Skills = () => {
 
         
           <div class="col-12 col-xxl-3 border shadow bg-navy border-navy pt-3 m-4">
-            <h4 class="text-center">Industry Tools</h4>
+            <h5 class="text-center">Industry Tools</h5>
             <div>
               <ul>
                 <li>Git / GitHub</li>

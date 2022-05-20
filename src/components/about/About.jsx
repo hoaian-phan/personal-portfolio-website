@@ -4,6 +4,7 @@ import me from '../../assets/me_about.jpg'
 const About = () => {
   return (
     <section id='about' class="mt-5">
+      <br /><br />
       <h6 class="text-center">I'm excited to tell you</h6>
       <h2 class="text-center"> About Me</h2>
 

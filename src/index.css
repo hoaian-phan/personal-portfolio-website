@@ -14,7 +14,13 @@ h2 {
     color: #00A5E9
 }
 
+h5, h4, h1 {
+    color: peachpuff;
+}
 
+.bg-blue {
+    background: #051537;
+}
 
 .text-navy {
     color: #051537;
@@ -37,13 +43,10 @@ h2 {
     text-align: center;
 }
 
-.bg-blue {
-    background: #051537
-}
 
-a, a:hover, a:active, a:visited, a:focus {
+a, a:active, a:visited, a:focus {
     text-decoration:none;
-    color: white;
+    color: peachpuff;
 }
 
 .shadow {
@@ -60,3 +63,15 @@ a, a:hover, a:active, a:visited, a:focus {
     color: #00A5E9;
 }
 
+.portfolio-photo {
+    width: 99%;
+    border-radius: 20px;
+}
+
+#live-demo {
+    color: #00A5E9;
+}
+
+.logo {
+    width: 20px;
+}

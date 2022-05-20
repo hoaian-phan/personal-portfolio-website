@@ -1,9 +1,11 @@
 import React from 'react'
 import resume from '../../assets/resume.pdf'
+import {GrLinkedin} from 'react-icons/gr'
+import {GrGithub} from 'react-icons/gr'
 
 const CTA = () => {
   return (
-    <div class="mt-5">
+    <div class="my-5">
       <button type="button" class="btn btn-light bg-navy me-1">
         <a href={resume} download class="text-light-blue text-decoration-none">Download resume</a>
       </button>

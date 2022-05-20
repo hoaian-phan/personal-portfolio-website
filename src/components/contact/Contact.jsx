@@ -2,26 +2,22 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section id='contact'>
-      <h5>Let's connect</h5>
-      <h2>Contact Me</h2>
+    <section id='contact' class="mt-5">
+      <h6 class="text-center">Let's connect</h6>
+      <h2 class="text-center">Contact Me</h2>
 
       <div>
-        <div>
-          <article>
-            <h4>Email</h4>
+        
+          <article class="text-center mt-4">
+            
             <h5>hoaian.phan.sde2022@gmail.com</h5>
-            <a href="mailto:hoaian.phan.sde2022@gmail.com">Send me an email</a>
+            <button type="button" class="btn btn-light bg-navy me-1 mt-3">
+              <a href="mailto:hoaian.phan.sde2022@gmail.com" class="text-light-blue text-decoration-none">Send me an email</a>
+            </button>
           </article>
-        </div><br />
+          <br />
 
-        <form action="">
-          <input type="text" name="name" placeholder="Your Full Name" required /><br />
-          <input type="email" name="email" placeholder="Your Email" required /><br />
-          <textarea name="message" rows="10" placeholder="Your Message" required /><br />
-          <button type="submit">Send Message</button>
-        </form>
-      </div>
+       </div>
 
     </section>
   )

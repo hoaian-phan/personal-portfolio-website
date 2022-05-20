@@ -1,6 +1,6 @@
 import React from 'react'
 import CTA from './CTA'
-import me from '../../assets/me_full.JPG'
+import me from '../../assets/me_full.jpg'
 
 const Header = () => {
   return (

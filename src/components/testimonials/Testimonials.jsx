@@ -1,5 +1,5 @@
 import React from 'react'
-import avatar from '../../assets/me_park.JPEG'
+import avatar from '../../assets/me_park.jpg'
 
 const Testimonials = () => {
   return (

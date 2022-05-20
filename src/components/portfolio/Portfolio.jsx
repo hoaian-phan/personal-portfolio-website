@@ -17,7 +17,7 @@ const Portfolio = () => {
             </div>
 
             <h5 class="pt-3 m-1 text-center">Playdate Birdies Web Application</h5>
-            <p class="pt-3 m-1 text-center">Technologies: &nbsp; Python &nbsp; • &nbsp; Flask &nbsp;•&nbsp; JavaScript &nbsp;•&nbsp; HTML &nbsp;•&nbsp;
+            <p class="pt-3 m-1 text-center">Technologies: &nbsp; Python &nbsp; • &nbsp; Flask &nbsp;•&nbsp; PostgreSQL &nbsp;•&nbsp; JavaScript &nbsp;•&nbsp; HTML &nbsp;•&nbsp;
              Bootstrap &nbsp;•&nbsp; CSS &nbsp;•&nbsp; Google Map APIs &nbsp;•&nbsp; Sendgrid APIs &nbsp;•&nbsp; AWS Lightsail</p>
             
             <div class="pt-3 m-1 mb-4 text-center">

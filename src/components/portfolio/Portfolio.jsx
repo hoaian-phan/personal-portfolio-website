@@ -10,7 +10,7 @@ const Portfolio = () => {
 
       <div class="container m-4">
       <div class="row d-flex align-items-center justify-content-center">
-          <div class="col-8 col-md-6 col-lg-4 border shadow bg-navy border-navy pt-3 m-3">
+          <div class="col-8 col-md-6 col-lg-4 col-xxl-4 border shadow bg-navy border-navy pt-3 m-3">
         
             <div class="text-center">
               <img src={img} class="portfolio-photo border" alt="playdate birdies"/>

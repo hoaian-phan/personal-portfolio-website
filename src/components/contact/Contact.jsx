@@ -3,6 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <section id='contact' class="mt-5">
+      <br /><br />
       <h6 class="text-center">Let's connect</h6>
       <h2 class="text-center">Contact Me</h2>
 

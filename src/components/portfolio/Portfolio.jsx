@@ -10,7 +10,7 @@ const Portfolio = () => {
 
       <div class="container m-4">
       <div class="row d-flex align-items-center justify-content-center">
-          <div class="col-12 col-xxl-3 border shadow bg-navy border-navy pt-3 m-3">
+          <div class="col-8 col-md-5 col-lg-4 col-xl-3 border shadow bg-navy border-navy pt-3 m-3">
         
             <div class="text-center">
               <img src={img} class="portfolio-photo border" alt="playdate birdies"/>
@@ -30,7 +30,7 @@ const Portfolio = () => {
             </button>
 
             <button type="button" class="btn btn-light bg-navy ms-1">
-              <a href="http://playdatebirdies.com/" target="_blank" rel="noreferrer">Visit the site</a>
+              <a href="http://playdatebirdies.com/" target="_blank" rel="noreferrer">Visit</a>
               </button>
             </div>
           </div>

@@ -16,7 +16,7 @@ const About = () => {
         
           <div class="col-12 col-xxl-4">
             <div class="row d-flex align-items-center justify-content-center">
-              <article class="border shadow bg-navy border-navy pt-3 m-4">
+              <article class="border shadow bg-navy border-navy pt-3 m-4 fix-width">
                 <h5 class="text-center">Who I Am</h5>
                   <ul>
                     <li>An aspiring full-stack software engineer</li>
@@ -25,7 +25,7 @@ const About = () => {
                   </ul>
               </article>
               
-              <article class="border shadow bg-navy border-navy pt-3">
+              <article class="border shadow bg-navy border-navy pt-3 fix-width">
                 <h5 class="text-center">What I Do</h5>
                   <ul>
                     <li>Deliver solutions that excite customers </li>
@@ -39,7 +39,7 @@ const About = () => {
 
           <div class="col-12 col-xxl-4">
             <div class="row d-flex align-items-center justify-content-center">
-              <article class="border shadow bg-navy border-navy pt-3 m-4">
+              <article class="border shadow bg-navy border-navy pt-3 m-4 fix-width">
               <h5 class="text-center">What I Believe</h5>
                 <ul>
                   <li>I believe in self-motivation &#38; determination</li>
@@ -49,7 +49,7 @@ const About = () => {
               </article>
               
 
-              <article class="border shadow bg-navy border-navy pt-3">
+              <article class="border shadow bg-navy border-navy pt-3 fix-width">
                 <h5 class="text-center">How I Learn</h5>
                   <ul>
                     <li>I accept &#38; get comfortable with the unknowns</li>

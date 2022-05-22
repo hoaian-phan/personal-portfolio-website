@@ -1,5 +1,6 @@
 import React from 'react'
 
+// Skills with 3 categories: languages, frameworks and tools
 const Skills = () => {
   return (
     <section id='skills' class="mt-5">

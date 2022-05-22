@@ -46,6 +46,7 @@ h5, h4, h1 {
 .row {
     margin: 0;
 }
+/* To remove underlined after clicking a hyperlink */
 a, a:active, a:visited, a:focus {
     text-decoration:none;
     color: peachpuff;

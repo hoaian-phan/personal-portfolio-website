@@ -2,6 +2,7 @@ import React from 'react'
 import CTA from './CTA'
 import me from '../../assets/me_full.jpg'
 
+// My landing page, with name, photo, titles, download resume and let's talk (in CTA)
 const Header = () => {
   return (
     <header class="container my-5">

@@ -1,6 +1,7 @@
 import React from 'react'
 import avatar from '../../assets/me_park.jpg'
 
+// Incomplete as waiting for real testimonials
 const Testimonials = () => {
   return (
     <section id='testimonials'>

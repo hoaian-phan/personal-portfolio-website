@@ -1,6 +1,7 @@
 import React from 'react'
 import me from '../../assets/me_about.jpg'
 
+// About me with photo and 4 value pillars
 const About = () => {
   return (
     <section id='about' class="mt-5">

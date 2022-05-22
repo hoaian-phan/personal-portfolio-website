@@ -8,7 +8,7 @@ const About = () => {
       <h6 class="text-center">I'm excited to tell you</h6>
       <h2 class="text-center"> About Me</h2>
 
-      <div class="container m-5">
+      <div class="container my-5">
         <div class="row">
           <div class="col-12 col-xxl-4 text-center">
             <img src={me} class="img-thumbnail resize-photo" alt="About me" />

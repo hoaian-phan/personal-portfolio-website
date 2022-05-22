@@ -8,7 +8,7 @@ const Portfolio = () => {
       <h6 class="text-center">What I Created</h6>
       <h2 class="text-center">My Portfolio</h2>
 
-      <div class="container m-4">
+      <div class="container my-4">
       <div class="row d-flex align-items-center justify-content-center">
           <div class="col-8 col-md-6 col-lg-4 col-xxl-3 border shadow bg-navy border-navy pt-3 m-3">
         

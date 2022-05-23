@@ -53,7 +53,7 @@ const About = () => {
               <article class="border shadow bg-navy border-navy pt-3 fix-width">
                 <h5 class="text-center">How I Learn</h5>
                   <ul>
-                    <li>I accept &#38; get comfortable with the unknowns</li>
+                    <li>I welcome challenges and the unknown</li>
                     <li>I get excited about learning new things</li>
                     <li>I ask questions. It's the best way to learn &#38; grow</li>
                   </ul>

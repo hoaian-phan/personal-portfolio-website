@@ -1,5 +1,5 @@
 import React from 'react'
-import HoaiAnPhanResume from '../../Hoai-An-Phan_Resume_2022.pdf'
+import HoaiAnPhanResume from '../../assets/Hoai-An-Phan_Resume_2022.pdf'
 
 const CTA = () => {
   return (

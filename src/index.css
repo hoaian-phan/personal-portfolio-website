@@ -198,4 +198,17 @@ left: 0%;
 }
 }
 
-
+.testimonial {
+    /* width:550px; */
+    width: 51%;
+    
+    
+    /* height:300px;
+    min-width:550px;
+    min-height:300px;
+    max-width:550px;
+    max-height:300px;
+    overflow:hidden;
+    display:block;
+    border:1px solid red; */
+}

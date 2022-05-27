@@ -23,7 +23,7 @@ const Portfolio = () => {
             <p class="pt-3 m-1"> I built this web app for parents and guardians to host and find playdates for their kids. </p>
             <p class="pt-3 m-1 text-center">Technologies: &nbsp; Python &nbsp; • &nbsp; Flask &nbsp;•&nbsp; PostgreSQL &nbsp;•&nbsp; JavaScript &nbsp;•&nbsp; HTML  &nbsp;•&nbsp; 
             Bootstrap &nbsp;•&nbsp; CSS &nbsp;•&nbsp; Google Map APIs &nbsp;•&nbsp; Sendgrid APIs &nbsp;•&nbsp; AWS </p>
-            <p class="pt-3 m-1 text-center">Highlighted features: &nbsp;&nbsp; Search  &nbsp; • &nbsp; Host  &nbsp; • &nbsp; Invite friends to events &nbsp; • &nbsp; Following hosts &nbsp; • &nbsp; Receive email reminders &nbsp; • &nbsp; Recommend playdates based on users' interests. </p>
+            <p class="pt-3 m-1 text-center">Highlighted features: &nbsp;&nbsp; Search  &nbsp; • &nbsp; Host  &nbsp; • &nbsp; Invite friends to events &nbsp; • &nbsp; Following hosts &nbsp; • &nbsp; Receive email reminders &nbsp; • &nbsp; View event in calendar &nbsp; • &nbsp; Recommend playdates based on users' interests. </p>
             
             <div class="pt-3 m-1 mb-4 text-center">
               <button type="button" class="btn btn-light bg-navy me-1 text-live">
@@ -53,7 +53,7 @@ const Portfolio = () => {
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
               </div>
 
-              <div class="carousel-inner d-flex justify-content-around">
+              <div class="carousel-inner justify-content-around">
                 <div class="carousel-item active pb-5  ">
                   <img src={search} class="img-fluid portfolio-photo" alt="search_feature"></img>
                 </div>

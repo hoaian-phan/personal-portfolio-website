@@ -1,6 +1,6 @@
 import React from 'react'
 import CTA from './CTA'
-import me from '../../assets/me_full.jpg'
+import me from '../../assets/HAP_at_WWC.jpg'
 
 // My landing page, with name, photo, titles, download resume and let's talk (in CTA)
 const Header = () => {

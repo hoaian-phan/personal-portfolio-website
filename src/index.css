@@ -78,10 +78,17 @@ a, a:active, a:visited, a:focus {
     color: #00A5E9;
 }
 
+.carousel-inner,
+        .carousel-item,
+        .carousel-item.active {
+          height: 70vh;
+        }
+
 .portfolio-photo {
-    height: 400px;
+    height: 300px;
     border-radius: 10px;
     text-align: center;
+    margin: auto;
 }
 
 #live-demo {
@@ -91,6 +98,7 @@ a, a:active, a:visited, a:focus {
 .logo {
     width: 20px;
 }
+
 
 /* The actual timeline (the vertical ruler) */
 .main-timeline {

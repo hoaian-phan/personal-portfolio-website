@@ -1,6 +1,5 @@
 import React from 'react'
 import CTA from './CTA'
-import Social from './Social'
 import me from '../../assets/HAP_at_WWC.jpg'
 
 
@@ -12,8 +11,6 @@ const Header = () => {
         <h6> Hello, I'm</h6>
         <h1> Hoai-An Phan</h1>
         <h6> Software Engineer &nbsp;&nbsp; • &nbsp;&nbsp; Gardener &nbsp;&nbsp; • &nbsp;&nbsp; Coffee Lover</h6>
-        
-        <Social />
         
         <div class="my-4">
           <img src={me} class="img-thumbnail rounded resize-photo" alt="me" />

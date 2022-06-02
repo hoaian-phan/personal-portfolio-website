@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Contact = () => {
   return (
     <section id='contact' class="mt-5">
@@ -19,6 +20,8 @@ const Contact = () => {
           <br />
 
        </div>
+
+       
 
     </section>
   )

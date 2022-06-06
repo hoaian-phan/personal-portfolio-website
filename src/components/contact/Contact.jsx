@@ -19,10 +19,9 @@ const Contact = () => {
           </article>
           <br />
 
-       </div>
+      </div>
 
-       
-
+      
     </section>
   )
 }

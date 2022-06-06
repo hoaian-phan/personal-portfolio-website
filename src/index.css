@@ -33,7 +33,7 @@ h5, h4, h1{
 }
 
 .bg-light-blue {
-    background: #00A5E9;
+    background: var(--lightBgColor);
 }
 
 .resize-photo {
@@ -42,7 +42,7 @@ h5, h4, h1{
 
 .navbar {
     width: 75%;
-    text-align: center;
+    text-align: justify;
     font-size: 23px;
     text-transform: uppercase;
 }
@@ -68,7 +68,7 @@ a, a:active, a:visited, a:focus {
 #about_img {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(-10deg);
+    transform: rotate(10deg);
     transition: var(--transition);
 }
 

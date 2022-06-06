@@ -5,7 +5,7 @@ import {AiOutlineMail} from 'react-icons/ai'
 
 const Social = () => {
   return (
-    <div class="text-center">
+    <div class="text-center mt-3">
         <a href="https://linkedin.com/in/hoai-an-phan" target="_blank" rel="noreferrer"><GrLinkedin></GrLinkedin></a>
         &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; 
         <a href="https://github.com/hoaian-phan" target="_blank" rel="noreferrer"><GrGithub></GrGithub></a>

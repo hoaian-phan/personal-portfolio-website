@@ -8,7 +8,7 @@ const Footer = () => {
       <a href="#"><h3 class="text-center pt-2">HOAI-AN PHAN</h3></a>
 
       <Social />
-      <br /><br /><br />
+      <br /><br /><br /><br /><br />
     </footer>
   )
 }

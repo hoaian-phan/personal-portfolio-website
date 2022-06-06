@@ -12,8 +12,11 @@ const About = () => {
       <div class="container my-5">
         <div class="row">
           <div class="col-12 col-xxl-4 text-center">
-            <img src={me} class="img-thumbnail resize-photo" alt="About me" />
+            <div class="about-img-bg">
+              <img src={me} class="img-thumbnail resize-photo" id="about_img" alt="About me" />
+            </div>
           </div>
+
         
           <div class="col-12 col-xxl-4">
             <div class="row d-flex align-items-center justify-content-center">

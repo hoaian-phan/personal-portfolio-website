@@ -4,7 +4,7 @@ import {useState} from 'react'
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
   return (
-    <nav class="navbar fixed-bottom rounded-pill px-3 bg-blue m-auto">
+    <nav class="navbar fixed-bottom rounded-pill px-3 bg-navy m-auto">
       <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''} >Home</a>
       <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''} >About</a>
       <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}>Experience</a>

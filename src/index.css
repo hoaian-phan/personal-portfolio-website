@@ -1,33 +1,35 @@
-body {
+:root{
+    --mainText:white;
+    --secondaryText:peachpuff;
+    --thirdText: #00A5E9;
+    --forthText:#0458AB;
+    --darkBgColor: #051537;
+    --lightBgColor: #00A5E9;
+    --borderColor:white;
+}
+
+html, body {
     font-family: 'DM Serif Display', serif;
-    color: white;
+    color: var(--mainText);
     background: url("assets/dark-paths-bg.jpg");
-    background-color: #051537;
+    background-color: var(--darkBgColor);
     background-size: auto;
 }
 
 h3 {
-    color: #0458AB
+    color: var(--forthText);
 }
 
 h2 {
-    color: #00A5E9
+    color: var(--thirdText);
 }
 
-h5, h4, h1 {
-    color: peachpuff;
-}
-
-.bg-blue {
-    background: #051537;
-}
-
-.text-navy {
-    color: #051537;
+h5, h4, h1{
+    color: var(--secondaryText);
 }
 
 .bg-navy {
-    background: #051537;
+    background: var(--darkBgColor);
 }
 
 .bg-light-blue {
@@ -54,6 +56,25 @@ a, a:active, a:visited, a:focus {
     color: peachpuff;
 }
 
+.about-img-bg {
+    width: 75%;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, peachpuff, transparent);
+    display: grid;
+    place-items: center;
+
+}
+
+#about_img {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(-10deg);
+    transition: var(--transition);
+}
+
+#about_img:hover {
+    transform: rotate(0);
+}
 .navbar {
     width: 75%;
     text-align: center;

@@ -14,6 +14,7 @@ html, body {
     background: url("assets/dark-paths-bg.jpg");
     background-color: var(--darkBgColor);
     background-size: auto;
+    scroll-behavior: smooth;
 }
 
 h3 {
@@ -37,7 +38,7 @@ h5, h4, h1{
 }
 
 .resize-photo {
-    height: 400px;
+    height: 300px;
 }
 
 .navbar {
@@ -62,6 +63,7 @@ a, a:active, a:visited, a:focus {
     background: linear-gradient(45deg, transparent, peachpuff, transparent);
     display: grid;
     place-items: center;
+    text-align: center;
 
 }
 

@@ -13,7 +13,7 @@ const Portfolio = () => {
     <section id='portfolio' class="mt-5">
       <br /><br />
       <h6 class="text-center">What I Created</h6>
-      <h2 class="text-center">My Capstone Project</h2>
+      <h2 class="text-center">My Projects</h2>
 
       <div class="container my-5">
         <div class="row">

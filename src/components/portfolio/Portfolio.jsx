@@ -6,6 +6,7 @@ import recommend from '../../assets/recommend.jpg'
 import results from '../../assets/search_results.jpg'
 import calendar from '../../assets/calendar.jpg'
 import register from '../../assets/register.jpg'
+import playdate from '../../assets/playdate-birdies-project.jpg'
 
 
 const Portfolio = () => {
@@ -16,16 +17,49 @@ const Portfolio = () => {
       <h2 class="text-center">My Projects</h2>
 
       <div class="container my-5">
-        <div class="row">
-          <div class="col-12 col-xxl-4 text-center">
-      
-            <h5 class="pt-4 m-1 text-center">Playdate Birdies Web Application</h5>
-            <p class="pt-4 m-1"> I built this web app for parents and guardians to host and find playdates for their kids. </p>
-            <p class="pt-4 m-1 text-center">Technologies: &nbsp; Python &nbsp; • &nbsp; Flask &nbsp;•&nbsp; PostgreSQL &nbsp;•&nbsp; JavaScript &nbsp;•&nbsp; HTML  &nbsp;•&nbsp; 
-            Bootstrap &nbsp;•&nbsp; CSS &nbsp;•&nbsp; Google Map APIs &nbsp;•&nbsp; Sendgrid APIs &nbsp;•&nbsp; AWS </p>
-            <p class="pt-4 m-1 text-center">Highlighted features: &nbsp;&nbsp; Search  &nbsp; • &nbsp; Host  &nbsp; • &nbsp; Invite friends to events &nbsp; • &nbsp; Following hosts &nbsp; • &nbsp; Receive email reminders &nbsp; • &nbsp; View events in calendar &nbsp; • &nbsp; Recommend playdates based on users' interests. </p>
+        <div class="row ">
+          <div class="col">
+          <div class="card h-100 text-center">
+            <div class="card-header pt-4 text-light-blue">Capstone Project</div>
+            <img src={playdate} class="card-img-top p-4" alt="project_1"></img>
+            <div class="card-body">
+            <h4 class="card-title p-4 pt-0 m-1 text-center">Playdate Birdies </h4>
+            <h6 class="card-subtitle mb-2">A social media website for parents and guardians to host and find outdoor activities and playdates for their kids. </h6>
+            <div class="card-text pt-4 m-1"> 
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header " id="headingOne">
+                <button class="accordion-button accordion-bg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Technologies
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body accordion-content">
+                    &nbsp; Python &nbsp; • &nbsp; Flask &nbsp;•&nbsp; PostgreSQL &nbsp;•&nbsp; JavaScript &nbsp;•&nbsp; HTML  &nbsp;•&nbsp; 
+                        Bootstrap &nbsp;•&nbsp; CSS &nbsp;•&nbsp; Google Map APIs &nbsp;•&nbsp; Sendgrid APIs &nbsp;•&nbsp; AWS 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button accordion-bg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Highlighted features
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body accordion-content">
+                &nbsp;&nbsp; Search  &nbsp; • &nbsp; Host  &nbsp; • &nbsp; Invite friends to events &nbsp; • &nbsp; Following hosts &nbsp; • &nbsp; Receive email reminders &nbsp; • &nbsp; View events in calendar &nbsp; • &nbsp; Recommend playdates based on users' interests. 
+                </div>
+              </div>
+            </div>
+            
             
             <div class="pt-5 m-1 mb-4 text-center ">
+            <button type="button" class="btn btn-light bg-peach me-2 text-light-blue">
+                Quick demo
+              </button>
               <button type="button" class="btn btn-light bg-navy me-1 text-live">
                 <a id="live-demo" href="https://www.youtube.com/watch?v=u-X1LhxQtec" target="_blank" rel="noreferrer">Live Demo</a>
               </button>
@@ -38,6 +72,12 @@ const Portfolio = () => {
                 <a href="http://playdatebirdies.com/" target="_blank" rel="noreferrer">Visit</a>
               </button>
             </div>
+            <div class="card-footer text-muted">
+              April 2022
+            </div>
+          </div>
+          </div>
+          </div>
           </div>
 
           <div class="col-12 col-xxl-8">

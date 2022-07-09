@@ -101,6 +101,10 @@ a, a:active, a:visited, a:focus {
     color: #00A5E9;
 }
 
+.bg-peach {
+    background-color: var(--secondaryText);;
+}
+
 .carousel-inner,
         .carousel-item,
         .carousel-item.active {
@@ -246,6 +250,7 @@ a, a:active, a:visited, a:focus {
 
 .my-card {
     border: 1px solid var(--borderColor);
+    background-color: var(--darkBgColor) ;
     border-radius: 50px;
     box-shadow: 0 2px 20px gray;
     justify-content: space-between;
@@ -264,4 +269,31 @@ a, a:active, a:visited, a:focus {
 
 .social-icon:hover {
     transform: scale(1.75);
+}
+
+.card {
+    background-color: var(--darkBgColor) ;
+    border: 1px solid var(--borderColor);
+    border-radius: 50px;
+    box-shadow: 0 2px 20px gray;
+    justify-content: space-between;
+    transition: transform 200mx ease-in;
+}
+
+.card-img-top {
+    width: 100%;
+    /* height: 18vw; */
+    object-fit: cover;
+}
+
+.accordion-bg {
+    background-color: lightgray ;
+    border: 1px solid var(--borderColor);
+    box-shadow: 0 2px 20px gray;
+    justify-content: space-between;
+}
+
+.accordion-content {
+    background-color: var(--darkBgColor);
+
 }

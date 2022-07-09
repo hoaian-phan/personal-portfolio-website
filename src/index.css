@@ -244,7 +244,7 @@ a, a:active, a:visited, a:focus {
     width: 51%;
 }
 
-.card {
+.my-card {
     border: 1px solid var(--borderColor);
     border-radius: 50px;
     box-shadow: 0 2px 20px gray;
@@ -252,8 +252,16 @@ a, a:active, a:visited, a:focus {
     transition: transform 200mx ease-in;
   }
   
-.card:hover {
+.my-card:hover {
     transform: scale(1.05);
     border: 5px solid var(--lightBgColor);
 
+}
+
+.social-icon {
+    transition: transform 500mx ease-in;
+}
+
+.social-icon:hover {
+    transform: scale(1.75);
 }

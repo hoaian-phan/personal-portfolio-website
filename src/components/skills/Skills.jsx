@@ -10,7 +10,7 @@ const Skills = () => {
 
       <div class="container my-5">
         <div class="row d-flex align-items-center justify-content-center">
-          <div class="col-6 col-sm-6 col-lg-3 border shadow bg-navy border-navy pt-3 m-4">
+          <div class="card col-6 col-sm-6 col-lg-3 bg-navy pt-3 m-4">
             <h5 class="text-center">Languages</h5>
             <div>
               <ul>
@@ -26,7 +26,7 @@ const Skills = () => {
         
 
         
-          <div class="col-6 col-sm-6 col-lg-3 border shadow bg-navy border-navy pt-3 m-4">
+          <div class="card col-6 col-sm-6 col-lg-3 bg-navy  pt-3 m-4">
             <h5 class="text-center">Libraries and Frameworks</h5>
             <div>
               <ul>
@@ -42,7 +42,7 @@ const Skills = () => {
         
 
         
-          <div class="col-6 col-sm-6 col-lg-3 border shadow bg-navy border-navy pt-3 m-4">
+          <div class="card col-6 col-sm-6 col-lg-3 bg-navy pt-3 m-4">
             <h5 class="text-center">Industry Tools</h5>
             <div>
               <ul>

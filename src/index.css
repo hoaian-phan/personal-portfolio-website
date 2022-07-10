@@ -37,6 +37,10 @@ h5, h4, h1{
     background: var(--lightBgColor);
 }
 
+.bg-peach {
+    background: gray;
+}
+
 .resize-photo {
     height: 300px;
 }
@@ -112,8 +116,8 @@ a, a:active, a:visited, a:focus {
         }
 
 .portfolio-photo {
-    height: 300px;
-    border-radius: 10px;
+    height: 50%;
+    border-radius: 20px;
     text-align: center;
     margin: auto;
 }
@@ -282,7 +286,6 @@ a, a:active, a:visited, a:focus {
 
 .card-img-top {
     width: 100%;
-    /* height: 18vw; */
     object-fit: cover;
 }
 
@@ -297,3 +300,12 @@ a, a:active, a:visited, a:focus {
     background-color: var(--darkBgColor);
 
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 25rem));
+    grid-gap: 5rem;
+    justify-content: center;
+  }
+
+

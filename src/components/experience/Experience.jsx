@@ -34,29 +34,7 @@ const Experience = () => {
                   </div>
                 </div>
               </div>
-              <div class="timeline left">
-                <div class="border shadow bg-navy border-navy pt-3">
-                  <div class="card-body py-3">
-                  <h5 class="text-light-blue">March 2014 - March 2016</h5>
-                  <h4>Masan Consumer Corporation</h4>
-                  <p>Executive Assistant</p>
-                  <p>Arranged and managed CEO’s internal and external meeting calendar, as well as nationwide and regional travel schedule using time management, flexibility to adapt to unforeseeable changes, problem-solving and quick decision-making skills.
-                    Coordinated across various stakeholders to assist CEO in business operation to ensure alignment between company strategic directions and departmental execution using leadership, business acumen, and personable communication skills.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="timeline right">
-                <div class="border shadow bg-navy border-navy pt-3">
-                  <div class="card-body py-3">
-                  <h5 class="text-light-blue">April 2011 - December 2013</h5>
-                  <h4>EQuest Academy</h4>
-                  <p>Academic Course Facilitator</p>
-                  <p>Assisted Academic Manager in curriculum building, material selection, and self-service library management. 
-                    Improved teacher qualification by recruiting teachers and providing training workshops.
-                    Taught interactive communication and test preparation courses (TOEFL, IELTS, SAT, GMAT).</p>
-                  </div>
-                </div>
-              </div>
+              
               
             </div>
           </div>

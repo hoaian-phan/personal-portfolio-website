@@ -1,13 +1,8 @@
-import React, {useState} from 'react'
+import React from 'react'
+import ImageCarousel from './ImageCarousel'
 
 const Project = (props) => {
-  // Handle show Quick Demo as a modal
-  const [show, setShow] = useState(false);
-  const handleClose = () => {
-		setShow(false);
-	}
-	const handleShow = () => setShow(true);
-
+  
   return (
     <div class="card h-100 text-center">
       <div class="card-header pt-4 text-light-blue">
@@ -69,7 +64,26 @@ const Project = (props) => {
         {props.footer}
       </div>
     </div>
-  </div>
+  
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header bg-peach">
+                  <h5 class="modal-title text-light-blue" id="exampleModalLabel">Playdate Birdies</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body bg-navy">
+                  <ImageCarousel images={props.carousel} />
+                </div>
+                <div class="modal-footer bg-peach">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
 
   
   )

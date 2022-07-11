@@ -116,7 +116,7 @@ a, a:active, a:visited, a:focus {
         }
 
 .portfolio-photo {
-    height: 50%;
+    height: 45%;
     border-radius: 20px;
     text-align: center;
     margin: auto;
@@ -298,12 +298,11 @@ a, a:active, a:visited, a:focus {
 
 .accordion-content {
     background-color: var(--darkBgColor);
-
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 25rem));
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 23rem));
     grid-gap: 5rem;
     justify-content: center;
   }

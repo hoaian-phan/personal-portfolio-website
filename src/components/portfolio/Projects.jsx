@@ -89,7 +89,7 @@ const data = [
         id: 1,
         image: banner,
         feature: "Banner",
-        description: "Banner with embedded Youtube video, fully responsive by different screen sizes.",
+        description: "Banner to introduce the company's product, with embedded Youtube video, fully responsive by different screen sizes.",
       },
       {
         id: 2,

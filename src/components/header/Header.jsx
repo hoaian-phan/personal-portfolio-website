@@ -8,7 +8,7 @@ import me from '../../assets/HAP_at_WWC.jpg'
 // My landing page, with name, photo, titles, download resume and let's talk (in CTA)
 const Header = () => {
   return (
-    <header class="container my-5">
+    <header id="#" class="container my-5">
       <div class="text-center mb-4">
         <h6> Hello, I'm</h6>
         <h1> Hoai-An Phan</h1>

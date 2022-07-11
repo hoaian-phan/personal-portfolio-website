@@ -9,6 +9,10 @@ import register from '../../assets/register.jpg'
 import playdate from '../../assets/playdate-birdies-project.jpg'
 import Project from './Project'
 import career from '../../assets/career-page.jpg'
+import banner from '../../assets/banner.jpg'
+import form from '../../assets/form-validation.jpg'
+import jobs from '../../assets/jobs.jpg'
+import members from '../../assets/members.jpg'
 
 const data = [
   {
@@ -17,8 +21,8 @@ const data = [
     header: "Capstone Project",
     title: "Playdate Birdies",
     subtitle: "A social media for parents to host and find outdoor activities and playdates for their kids.",
-    technologies: ["Python", "Flask", "PostgreSQL", "JavaScript", "HTML", "Bootstrap", "CSS", "Google Map APIs", "AWS"],
-    features: ["Search", "Host", "Invite friends to events", "Following hosts", "Receive email reminders", "View events in calendar", "Recommend playdates based on users' interests."],
+    technologies: ["Python * Flask * PostgreSQL * JavaScript * HTML * Bootstrap * CSS * Google Map APIs * AWS"],
+    features: ["Search * Host * Invite friends to events * Following hosts * Receive email reminders * View events in calendar * Recommend playdates based on users' interests."],
     website: "http://playdatebirdies.com/",
     github: "https://github.com/hoaian-phan/project-playdate-birdies",
     liveDemo: "https://www.youtube.com/watch?v=u-X1LhxQtec",
@@ -73,9 +77,9 @@ const data = [
     image: career,
     header: "Personal Project",
     title: "Career Page",
-    subtitle: "A career page where applicants can find the company's information and apply for a job",
-    technologies: ["Python", "Flask", "React", "JavaScript", "HTML", "ReactBootstrap", "CSS", "internal APIs"],
-    features: ["About", "Values", "Mission", "Team members", "Jobs", "Apply for a job"],
+    subtitle: "A career page where applicants can find the company's information and apply for a job.",
+    technologies: ["Python * Flask * React * JavaScript * HTML * ReactBootstrap * CSS * Internal APIs"],
+    features: ["About * Values * Mission * Team members * Jobs * Apply for a job * Form input validation"],
     website: "",
     github: "https://github.com/hoaian-phan/career-page",
     liveDemo: "",
@@ -83,33 +87,27 @@ const data = [
     carousel: [
       {
         id: 1,
-        image: search,
-        feature: "Search feature",
-        description: "Users can perform a search for a playdate by one or multiple parameters such as city or zipcode, date, age group, and/or activities. This searching feature is implemented by query chains in SQLAlchemy to the PostgreSQL database.",
+        image: banner,
+        feature: "Banner",
+        description: "Banner with embedded Youtube video, fully responsive by different screen sizes.",
       },
       {
         id: 2,
-        image: results,
-        feature: "Search results",
-        description: "Search results show playdate details with location markers on the map as well as user's location (if granted permission). I implemented this page using Google Maps APIs to display map, location markers and user's location. Result details are shown by DOM manipulation in JavaScript.",
+        image: members,
+        feature: "Team members",
+        description: "When loading the page, fetch data from server to get team members' information as JSON and display as cards in grid layout.",
       },
       {
         id: 3,
-        image: host,
-        feature: "Hosting feature",
-        description: "After host fills in the form with the help of address autocompletion, the event will be created and saved in PostgreSQL database. Host also has an option to receive email reminders about their events.",
+        image: jobs,
+        feature: "Open positions",
+        description: "When loading the page, fetch data from server to get open positions and display as a list where each job is highlighted on mouse hovering.",
       },
       {
         id: 4,
-        image: register,
-        feature: "Register feature",
-        description: "REACT page with updates of who's coming to the playdate and option to receive email reminder. Email feature was implemented by Flask-Mail and Sendgrid API and reminders are scheduled using Celery.",
-      },
-      {
-        id: 5,
-        image: invite,
-        feature: "Invite feature",
-        description: "Hosts and participants can invite friends to join their events. An email with the event registration link will be sent to selected friends and they can register if interested.",
+        image: form,
+        feature: "Apply with validated form",
+        description: "When the Apply button is clicked, a modal is open with a form. Inputs are validated before sending a post request to the server to save the application to the database.",
       },
     ]
   },
@@ -122,7 +120,7 @@ const Projects = () => {
   for (const myProject of data) {
     myProjects.push(
       <Project
-        key={myProject.id}
+        id={myProject.id}
         image={myProject.image}
         header={myProject.header}
         title={myProject.title}

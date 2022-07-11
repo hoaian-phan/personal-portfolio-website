@@ -16,11 +16,11 @@ const Project = (props) => {
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header " id="headingOne">
-                <button class="accordion-button accordion-bg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <button class="accordion-button accordion-bg collapsed" type="button" data-bs-toggle="collapse" data-bs-target={"#collapseOne"+props.id} aria-expanded="false" aria-controls="collapseOne">
                   Technologies
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div id={"collapseOne"+props.id} class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body accordion-content">
                   {props.technologies}
                 </div>
@@ -28,11 +28,11 @@ const Project = (props) => {
 
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button accordion-bg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <button class="accordion-button accordion-bg collapsed" type="button" data-bs-toggle="collapse" data-bs-target={"#collapseTwo"+props.id}  aria-expanded="false" aria-controls="collapseTwo">
                   Highlighted features
                 </button>
               </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div id={"collapseTwo"+props.id} class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body accordion-content">
                   {props.features}
                 </div>
@@ -42,7 +42,7 @@ const Project = (props) => {
         </div>
 
         <div class="pt-5 m-1 mb-4 text-center ">
-          <button type="button" class="btn btn-light bg-peach me-2 text-light-blue" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-local="carouselExampleCaptions">
+          <button type="button" class="btn btn-light bg-peach me-2 text-light-blue" data-bs-toggle="modal" data-bs-target={"#exampleModal"+props.id} data-bs-local="carouselExampleCaptions">
             Quick demo
           </button>
           <button type="button" class="btn btn-light bg-navy me-1 text-live">
@@ -65,7 +65,7 @@ const Project = (props) => {
       </div>
     </div>
   
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id={"exampleModal"+props.id} tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header bg-peach">

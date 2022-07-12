@@ -138,12 +138,6 @@ nav a.active {
     background-color: var(--secondaryText);;
 }
 
-.carousel-inner,
-        .carousel-item,
-        .carousel-item.active {
-          height: 70vh;
-        }
-
 .portfolio-photo {
     height: 45%;
     border-radius: 20px;
@@ -277,10 +271,6 @@ nav a.active {
 }
 }
 
-.testimonial {
-    width: 51%;
-}
-
 .my-card {
     border: 1px solid var(--borderColor);
     background-color: var(--darkBgColor) ;
@@ -336,4 +326,43 @@ nav a.active {
     justify-content: center;
   }
 
+  /* Testimonial carousel */
+  .wrapper {
+    padding: 50px 0;
+    position: relative;
+    margin: 120px, 0;
+  }
 
+  .imgBox {
+    width: 100px;
+    height: 100px;
+    margin-left: 44%;
+    border: 3px dashed var(--secondaryText);
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .imgBox img {
+    width: 100%;
+  }
+
+  .carousel-inner {
+    background: var(--darkBgColor);
+    padding: 35px;
+    border-radius: 25px;
+    box-shadow: 0 2px 20px white;
+  }
+
+.carousel-caption {
+    position: static;
+    padding-bottom: 15px;
+}
+
+.carousel-indicators button {
+    width: 60px;
+}
+
+.carousel-indicators .active {
+    background-color: var(--secondaryText);
+    width: 10px;
+}

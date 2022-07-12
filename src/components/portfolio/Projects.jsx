@@ -80,9 +80,9 @@ const data = [
     subtitle: "A career page where applicants can find the company's information and apply for a job.",
     technologies: ["Python * Flask * React * JavaScript * HTML * ReactBootstrap * CSS * Internal APIs"],
     features: ["About * Values * Mission * Team members * Jobs * Apply for a job * Form input validation"],
-    website: "",
+    website: "https://github.com/hoaian-phan/career-page",
     github: "https://github.com/hoaian-phan/career-page",
-    liveDemo: "",
+    liveDemo: "https://github.com/hoaian-phan/career-page",
     footer: "July 2022",
     carousel: [
       {

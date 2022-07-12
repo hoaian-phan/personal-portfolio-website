@@ -365,3 +365,8 @@ nav a.active {
     background-color: var(--secondaryText);
     width: 10px;
 }
+
+.inner {
+    width: 60%;
+    margin: 0 auto;
+  }

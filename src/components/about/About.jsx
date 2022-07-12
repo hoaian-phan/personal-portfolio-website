@@ -11,10 +11,9 @@ const About = () => {
 
       <div class="container my-5">
         <div class="row">
-          <div class="col-12 col-xxl-4">
-            <div class="about-img-bg">
+          <div class="col-12 col-xxl-4 text-center">
               <img src={me} class="img-thumbnail resize-photo" id="about_img" alt="About me" />
-            </div>
+            
           </div>
 
         

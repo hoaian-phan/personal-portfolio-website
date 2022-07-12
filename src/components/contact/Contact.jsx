@@ -8,20 +8,26 @@ const Contact = () => {
       <h6 class="text-center">Let's connect</h6>
       <h2 class="text-center">Contact Me</h2>
 
-      <div>
-        
-          <article class="text-center mt-4">
-            
-            <h5>hoaian.phan.sde2022@gmail.com</h5>
-            <button type="button" class="btn btn-light bg-navy me-1 mt-3">
-              <a href="mailto:hoaian.phan.sde2022@gmail.com" class="text-light-blue text-decoration-none">Send me an email</a>
-            </button>
-          </article>
-          <br />
-
+      <div class="container p-4 ">
+        <form target="_blank" action="https://formsubmit.co/hoaian.phan.sde2022@gmail.com" method="POST">
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col p-1">
+                <input type="text" name="name" class="form-control contact-form" placeholder="Full Name" required />
+              </div>
+              <div class="col p-1">
+                <input type="email" name="email" class="form-control contact-form" placeholder="Email Address" required />
+              </div>
+            </div>
+          </div>
+          <div class="form-group p-1">
+            <textarea placeholder="Your Message" class="form-control contact-form" name="message" rows="10" required></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-light bg-navy me-1 mt-3 text-light-blue">Send Message</button>
+          </div>
+        </form>
       </div>
-
-      
     </section>
   )
 }

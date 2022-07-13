@@ -19,7 +19,7 @@ document.getElementsByTagName('body')[0].onscroll = function () {
     console.log(pagePosition);
     console.log("navIds[i]", navIds[i]);
     console.log("contentIds[i]", contentIds[i]);
-    if (pagePosition < 100) {
+    if (pagePosition < 200) {
       for (var j = navIds.length - 1; j >= 0; j--) {
         if (i === j)
           document.getElementById(navIds[j]).classList.add("active");

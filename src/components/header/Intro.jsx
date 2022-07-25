@@ -4,11 +4,10 @@ import Typewriter from "typewriter-effect"
 const Intro = () => {
   return (
     <div>
-        <Typewriter
+        <Typewriter 
         onInit={(typewriter) => {
         typewriter
-        .pauseFor(800)
-        .typeString("The Programmer •  Developer  •  Problem-solver")
+        .typeString('<strong><span style="font-size:25px;">The Programmer •  Developer  •  Problem-solver</span></strong>')
         .start();
         
         }}

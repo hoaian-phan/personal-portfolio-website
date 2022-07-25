@@ -137,9 +137,9 @@ const Projects = () => {
     )
   }
   return (
-    <section id='portfolio' class="mt-5">
+    <section id='portfolio' class="my-5">
       <br /><br />
-      <h6 class="text-center">What I Created</h6>
+      <h5 class="text-center">What I Created</h5>
       <h2 class="text-center pb-4">My Projects</h2>
 
       <div class="grid">{myProjects}</div>

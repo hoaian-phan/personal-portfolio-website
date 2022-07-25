@@ -47,7 +47,7 @@ const Testimonials = () => {
   return (
     <section id='testimonials' class="mt-5">
       <br /><br />
-      <h6 class="text-center">What others think about me and my skills</h6>
+      <h5 class="text-center">What others think about me and my skills</h5>
       <h2 class="text-center"> Testimonials</h2>
           
     

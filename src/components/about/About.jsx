@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section id='about' class="mt-5">
       <br /><br />
-      <h6 class="text-center">I'm excited to tell you</h6>
+      <h5 class="text-center">I'm excited to tell you</h5>
       <h2 class="text-center"> About Me</h2>
 
       <div class="container my-5">
@@ -18,7 +18,7 @@ const About = () => {
           <div class="col-12 col-xxl-4">
             <div class="row d-flex align-items-center justify-content-center">
               <article class="my-card pt-3 m-4 fix-width">
-                <h5 class="text-center">Who I Am</h5>
+                <h4 class="text-center">Who I Am</h4>
                   <ul>
                     <li>An aspiring full-stack software engineer</li>
                     <li>A lifetime learner of technologies</li>
@@ -27,7 +27,7 @@ const About = () => {
               </article>
               
               <article class="my-card pt-3 fix-width">
-                <h5 class="text-center">What I Do</h5>
+                <h4 class="text-center">What I Do</h4>
                   <ul>
                     <li>Deliver solutions that excite customers </li>
                     <li>Use software to solve non-software problems </li>
@@ -41,7 +41,7 @@ const About = () => {
           <div class="col-12 col-xxl-4">
             <div class="row d-flex align-items-center justify-content-center">
               <article class="my-card pt-3 m-4 fix-width">
-              <h5 class="text-center">What I Believe</h5>
+              <h4 class="text-center">What I Believe</h4>
                 <ul>
                   <li>I believe in self-motivation &#38; determination</li>
                   <li>I believe in the power of constructive feedback</li>
@@ -51,7 +51,7 @@ const About = () => {
               
 
               <article class="my-card pt-3 fix-width">
-                <h5 class="text-center">How I Learn</h5>
+                <h4 class="text-center">How I Learn</h4>
                   <ul>
                     <li>I welcome challenges and the unknown</li>
                     <li>I get excited about learning new things</li>

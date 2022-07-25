@@ -25,7 +25,7 @@ h2 {
     color: var(--thirdText);
 }
 
-h5, h4, h1{
+h4, h1{
     color: var(--secondaryText);
 }
 
@@ -39,6 +39,11 @@ h5, h4, h1{
 
 .bg-peach {
     background: gray;
+}
+
+
+.title {
+    font-size: 3rem;
 }
 
 .resize-photo {

@@ -9,20 +9,23 @@ import Testimonials from './components/testimonials/Testimonials'
 import Blog from './components/blog/Blog'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import { runFireworks } from './lib/util'
+
 
 const App = () => {
+  runFireworks();
   return (
     <>
-        <Header />
-        <Nav />
-        <About />
-        <Experience />
-        <Skills />
-        <Projects />
-        <Testimonials />
-        {/* <Blog /> */}
-        <Contact />
-        <Footer />
+      <Header />
+      <Nav />
+      <About />
+      <Experience />
+      <Skills />
+      <Projects />
+      <Testimonials />
+      {/* <Blog /> */}
+      <Contact />
+      <Footer />
     
     </>
   )

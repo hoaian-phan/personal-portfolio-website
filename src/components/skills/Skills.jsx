@@ -3,15 +3,15 @@ import React from 'react'
 // Skills with 3 categories: languages, frameworks and tools
 const Skills = () => {
   return (
-    <section id='skills' class="mt-5">
+    <section id='skills' class="my-5">
       <br /><br />
-      <h6 class="text-center"> What I Know</h6>
+      <h5 class="text-center"> What I Know</h5>
       <h2 class="text-center">My Technical Skills</h2>
 
       <div class="container my-5">
         <div class="row d-flex align-items-center justify-content-center">
           <div class="my-card col-10 col-sm-12 col-lg-3 pt-3 m-4">
-            <h5 class="text-center">Languages</h5>
+            <h4 class="text-center">Languages</h4>
             <div>
               <ul>
                 <li>Python</li>
@@ -27,7 +27,7 @@ const Skills = () => {
 
         
           <div class="my-card col-10 col-sm-12 col-lg-3 pt-3 m-4">
-            <h5 class="text-center">Libraries and Frameworks</h5>
+            <h4 class="text-center">Libraries and Frameworks</h4>
             <div>
               <ul>
                 <li>Flask</li>
@@ -43,7 +43,7 @@ const Skills = () => {
 
         
           <div class="my-card col-10 col-sm-12 col-lg-3 pt-3 m-4">
-            <h5 class="text-center">Industry Tools</h5>
+            <h4 class="text-center">Industry Tools</h4>
             <div>
               <ul>
                 <li>Git / GitHub</li>

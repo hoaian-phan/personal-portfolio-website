@@ -5,9 +5,9 @@ const Experience = () => {
   return (
     <section id='experience' class="mt-5">
     <br /><br />
-      <h6 class="text-center">What I Did</h6>
+      <h5 class="text-center">What I Did</h5>
       <h2 class="text-center">My Experience</h2>
-      <p class="text-center"><small>See Resume for more details</small></p>
+      <p class="text-center">See Resume for more details</p>
 
       <div>
           <div class="container py-3">

@@ -13,6 +13,15 @@ import banner from '../../assets/banner.jpg'
 import form from '../../assets/form-validation.jpg'
 import jobs from '../../assets/jobs.jpg'
 import members from '../../assets/members.jpg'
+import teach from '../../assets/ttt_image.jpg'
+import home from '../../assets/ttt_homepage.jpg'
+import color_1 from '../../assets/ttt_color-1.jpg'
+import color_2 from '../../assets/ttt_color-2.jpg'
+import animal_1 from '../../assets/ttt_animal.jpg'
+import animal_2 from '../../assets/ttt_animal-2.jpg'
+import fruit from '../../assets/ttt_fruit.jpg'
+import ttt_error from '../../assets/ttt_error.jpg'
+
 
 const data = [
   {
@@ -111,6 +120,51 @@ const data = [
       },
     ]
   },
+  {
+    id: 3,
+    image: teach,
+    header: "Personal Project",
+    title: "Teach Tod Talk",
+    subtitle: "A learning web app for parents to teach their toodlers to talk and recognize colors and items.",
+    technologies: ["Python * Flask * JavaScript * HTML * Bootstrap * CSS * Web Speech APIs * Images from Unsplash"],
+    features: ["Customize lessons * Speech recognition * Display items "],
+    website: "https://github.com/hoaian-phan/teach-tod-talk",
+    github: "https://github.com/hoaian-phan/teach-tod-talk",
+    liveDemo: "https://youtu.be/XAPaK-BOFpo",
+    footer: "July 2022",
+    carousel: [
+      {
+        id: 1,
+        image: home,
+        feature: "Customize lessons",
+        description: "Users can build a lesson plan by choosing a category, a number of words and a level of difficulty that they want to teach their kids.",
+      },
+      {
+        id: 2,
+        image: color_1,
+        feature: "Recognize colors",
+        description: "Using Web Speech API, the app listens to the words and if they are recognized and in the lesson, the background of the screen will be changed to the corresponding color.",
+      },
+      {
+        id: 3,
+        image: animal_1,
+        feature: "Recognize animals",
+        description: "Similarly, if the kid says the name of an animal correctly, the image of that animal will be displayed on the screen.",
+      },
+      {
+        id: 4,
+        image: fruit,
+        feature: "Recognize fruits",
+        description: "In the same way, a fruit will be shown when its name is called.",
+      },
+      {
+        id: 5,
+        image: ttt_error,
+        feature: "Display error message",
+        description: "If the spoken words are not found in the lesson, or no sound is picked up, there will be a message printed on screen.",
+      },
+    ]
+  }
 ]
 
 const Projects = () => {

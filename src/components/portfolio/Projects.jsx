@@ -125,7 +125,7 @@ const data = [
     image: teach,
     header: "Personal Project",
     title: "Teach Tod Talk",
-    subtitle: "A learning web app for parents to teach their toodlers to talk and recognize colors and items.",
+    subtitle: "A learning web app for parents to teach their toddlers to talk and recognize colors and items.",
     technologies: ["Python * Flask * JavaScript * HTML * Bootstrap * CSS * Web Speech APIs * Images from Unsplash"],
     features: ["Customize lessons * Speech recognition * Display items "],
     website: "https://github.com/hoaian-phan/teach-tod-talk",

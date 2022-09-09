@@ -181,7 +181,6 @@ const Projects = () => {
         subtitle={myProject.subtitle}
         technologies={myProject.technologies}
         features={myProject.features}
-        website={myProject.website}
         github={myProject.github}
         liveDemo={myProject.liveDemo}
         footer={myProject.footer}

@@ -3,6 +3,8 @@ import steve from '../../assets/steve.jpg'
 import jocelyn from '../../assets/jocelyn.jpg'
 import cindy from '../../assets/cindy.jpg'
 import joyaan from '../../assets/joyaan.jpg'
+import megan from '../../assets/megan.jpg'
+import doug from '../../assets/doug.jpg'
 import Carousel from 'react-bootstrap/Carousel'
 import 'animate.css'
 
@@ -39,6 +41,22 @@ const data = [
     company: "Lyft",
     review: "In only a few months, An has shown incredible skill and growth as a developer. She represents the core tenets of what make a good software engineer: curious, analytical, and persistent. She has readily taken on many challenges within her projects to build new and unfamiliar features where no one that supported her knew how to solve the problem. She has been successful every time and tackles these problems with the mindset to learn. The results of these strong attributes in An are evident in the quality of each project she builds, most noticeably her incredible Playdate Birdies project that goes beyond expectations. Working with her, I have been particularly impresse by her organizational thinking and her ability to explain and debug.",
   },
+  {
+    id: 5,
+    image: megan,
+    name: "Megan Chen",
+    title: "Software Engineer",
+    company: "Lyft",
+    review: "I worked with An closely for close to a year as her mentor and teammate and can confidently say An is an all-rounder engineer who is capable of tremendous growth and impact. She shipped two high impact projects during her time at Lyft, onboarding quickly and taking complete ownership over not only her features, but over the consistency of the entire post-request experience.\n An dives deep, leaving no stone unturned, and collaborating strongly all the while. She is great at deeply understanding the problem, succinctly proposing solutions and deadlines, collecting feedback cross team and cross functionally, synthesizing that feedback to action items, and then strongly and promptly executing while keeping an eye towards long term impact and follow up work. I could not recommend An more for anyone looking to hire a junior eng with amazing follow through and abundant potential to grow.",
+  },
+  {
+    id: 6,
+    image: doug,
+    name: "Doug Liebe, PhD",
+    title: "Data Scientist",
+    company: "Lyft",
+    review: "An is an extremely hard worker who exemplified 'all-in ownership' during our time together at Lyft. She started as an apprentice and quickly worked to learn the ins and outs of the business, soon providing sharp considerations at team meetings. Her main strength was her ability to clearly define problems and potential next steps, always leading to faster execution than I expected of her. An never shies away from a challenge, choosing to own her projects and fill in gaps in her knowledge whenever possible. I heard many people, some with years of service at Lyft, say that An was the best apprentice Lyft had ever had - and I see why!",
+  },
 ]
 
 
@@ -49,18 +67,18 @@ const Testimonials = () => {
       <br /><br />
       <h5 class="text-center">What others think about me and my skills</h5>
       <h2 class="text-center"> Testimonials</h2>
-          
-    
+
+
       <div class="wrapper">
         <div class="container">
           <Carousel className="">
             {
-              data.map(({id, image, name, title, company, review}) => {
+              data.map(({ id, image, name, title, company, review }) => {
                 return (
                   <Carousel.Item>
                     <img className="imgBox animate__animated animate__bounceInRight animate__delay-1s"
-                      src={image} 
-                      alt={name} 
+                      src={image}
+                      alt={name}
                     />
                     <Carousel.Caption className="carousel-caption animate__animated animate__bounceInLeft animate__delay-2s">
                       <h2>{name}</h2>
@@ -72,9 +90,9 @@ const Testimonials = () => {
               })
             }
           </Carousel>
-          </div>
         </div>
-      
+      </div>
+
     </section>
   )
 }

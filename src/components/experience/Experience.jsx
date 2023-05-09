@@ -15,11 +15,12 @@ const Experience = () => {
             <div class="timeline left">
               <div class="border shadow bg-navy border-navy pt-3">
                 <div class="card-body py-3">
-                  <h5 class="text-light-blue">Aug 2022 - present</h5>
-                  <h4>Lyft</h4>
-                  <p>Software Engineering Apprentice</p>
-                  <p>Working in the Fulfillment team in Rideshare Organization, Rider App to improve riders' experience. </p>
+                  <h5 class="text-light-blue">Aug 2022 - May 2023</h5>
+                  <h4>Lyft Inc.</h4>
+                  <p>Software Engineer T1 and T2 (Fulfillment Team - Rider App)</p>
+                  <p>Interned as a server engineer, building and shipping the waiting experience in Python, Flask, AWS, Protocol Buffers, Grafana, ElasticSearch,...</p>
                 </div>
+
               </div>
             </div>
             <div class="timeline right">
@@ -39,8 +40,7 @@ const Experience = () => {
                   <h5 class="text-light-blue">November 2017 - June 2021</h5>
                   <h4>Standard Chartered Bank, US</h4>
                   <p>Sanctions Filtering Associate</p>
-                  <p>Identified and investigated possible matches related to sanctioned parties and countries, money laundering, and terrorist financing using Fircosoft for Transaction Screening and analytical skills.
-                    Increased average productivity of the team by personally exceeding 140% daily target transactions with 100% level of accuracy.</p>
+                  <p>Stopped illegal financial activities by identifying and investigating matches related to sanctioned countries, money laundering, and terrorist financing using policy awareness and Transaction Screening software.</p>
                 </div>
               </div>
             </div>

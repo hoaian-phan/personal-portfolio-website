@@ -12,51 +12,51 @@ const About = () => {
       <div class="container my-5">
         <div class="row">
           <div class="col-12 col-xxl-4 text-center">
-              <img src={me} class="img-thumbnail resize-photo" id="about_img" alt="About me" />
+            <img src={me} class="img-thumbnail resize-photo" id="about_img" alt="About me" />
           </div>
-        
-          <div class="col-12 col-xxl-4">
-            <div class="row d-flex align-items-center justify-content-center">
-              <article class="my-card pt-3 m-4 fix-width">
-                <h4 class="text-center">Who I Am</h4>
-                  <ul>
-                    <li>An aspiring full-stack software engineer</li>
-                    <li>A lifetime learner of technologies</li>
-                    <li>A proud mom of my wonderful toddler</li>
-                  </ul>
-              </article>
-              
-              <article class="my-card pt-3 fix-width">
-                <h4 class="text-center">What I Do</h4>
-                  <ul>
-                    <li>Deliver solutions that excite customers </li>
-                    <li>Use software to solve non-software problems </li>
-                    <li>Create and design with passion</li>
-                  </ul>
-              </article>
-            </div>
-          </div>
-        
 
           <div class="col-12 col-xxl-4">
             <div class="row d-flex align-items-center justify-content-center">
               <article class="my-card pt-3 m-4 fix-width">
-              <h4 class="text-center">What I Believe</h4>
+                <h4 class="text-center">Who I Am</h4>
+                <ul>
+                  <li>An early career full-stack software engineer</li>
+                  <li>A lifetime learner of technologies</li>
+                  <li>A proud mom of my wonderful preschooler</li>
+                </ul>
+              </article>
+
+              <article class="my-card pt-3 fix-width">
+                <h4 class="text-center">What I Do</h4>
+                <ul>
+                  <li>Deliver solutions that excite customers </li>
+                  <li>Use software to solve non-software problems </li>
+                  <li>Create and design with passion</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+
+
+          <div class="col-12 col-xxl-4">
+            <div class="row d-flex align-items-center justify-content-center">
+              <article class="my-card pt-3 m-4 fix-width">
+                <h4 class="text-center">What I Believe</h4>
                 <ul>
                   <li>I believe in self-motivation &#38; determination</li>
                   <li>I believe in the power of constructive feedback</li>
                   <li>I believe in getting things done </li>
                 </ul>
               </article>
-              
+
 
               <article class="my-card pt-3 fix-width">
                 <h4 class="text-center">How I Learn</h4>
-                  <ul>
-                    <li>I welcome challenges and the unknown</li>
-                    <li>I get excited about learning new things</li>
-                    <li>I ask questions. It's the best way to learn &#38; grow</li>
-                  </ul>
+                <ul>
+                  <li>I welcome challenges and the unknown</li>
+                  <li>I get excited about learning new things</li>
+                  <li>I ask questions. It's the best way to learn &#38; grow</li>
+                </ul>
               </article>
             </div>
           </div>

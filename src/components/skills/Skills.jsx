@@ -23,9 +23,9 @@ const Skills = () => {
               </ul>
             </div>
           </div>
-        
 
-        
+
+
           <div class="my-card col-10 col-sm-12 col-lg-3 pt-3 m-4">
             <h4 class="text-center">Libraries and Frameworks</h4>
             <div>
@@ -39,9 +39,9 @@ const Skills = () => {
               </ul>
             </div>
           </div>
-        
 
-        
+
+
           <div class="my-card col-10 col-sm-12 col-lg-3 pt-3 m-4">
             <h4 class="text-center">Industry Tools</h4>
             <div>
@@ -49,9 +49,9 @@ const Skills = () => {
                 <li>Git / GitHub</li>
                 <li>Shell </li>
                 <li>Docker</li>
-                <li>Redis</li>
+                <li>REST APIs</li>
+                <li>JSON / Protobuf</li>
                 <li>AWS Cloud</li>
-                <li>Heroku</li>
               </ul>
             </div>
           </div>

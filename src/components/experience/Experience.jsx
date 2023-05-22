@@ -23,7 +23,7 @@ const Experience = () => {
                   <h5 class="text-light-blue">Aug 2022 - May 2023</h5>
                   <h4>Lyft Inc.</h4>
                   <p>Software Engineer T1 and T2 (Fulfillment Team - Rider App)</p>
-                  <p>Interned as a server engineer, building and shipping the waiting experience using Python, Flask, AWS, Protocol Buffers, Grafana, ElasticSearch,...</p>
+                  <p>Worked as a server engineer, building and shipping the waiting experience using Python, Flask, AWS, Protocol Buffers, Grafana, ElasticSearch,...</p>
                 </div>
 
               </div>

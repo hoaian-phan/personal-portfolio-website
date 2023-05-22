@@ -10,7 +10,7 @@ const Experience = () => {
       <p class="text-center">See Resume for more details</p>
       <p class="text-center">
         <button type="button" class="btn btn-light bg-navy me-1 text-light-blue">
-          <a href="https://hoaian-personal-website.s3.us-west-1.amazonaws.com/HOAI-AN+PHAN+Resume+May+2023.pdf" rel="noopener noreferrer" target="_blank">Download Resume</a>
+          <a href="https://hoaian-personal-website.s3.us-west-1.amazonaws.com/HOAI-AN+PHAN+Full+Resume.pdf" rel="noopener noreferrer" target="_blank">Download Resume</a>
         </button>
       </p>
 

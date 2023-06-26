@@ -2,43 +2,40 @@ import { Configuration, OpenAIApi } from "openai";
 import express from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
+import dotenv from 'dotenv';
 
 const app = express();
 const port = 8000;
 app.use(bodyParser.json());
 app.use(cors());
-
+dotenv.config();
 
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
 });
 const openai = new OpenAIApi(configuration);
 
+async function sendTextToOpenAI(text) {
+  try {
+    console.log(text);
+    const response = await openai.createCompletion({
+      model: "text-davinci-003",
+      prompt: text,
+    });
+    return response.data.choices[0].text;
+  } catch (error) {
+    console.log(error.message);
+  }
+}
 
 app.post('/api/chat', async (req, res) => {
-  const { messages } = req.body;
-
-  const result = await openai.createChatCompletion({
-    model: "gpt-3.5-turbo",
-    temparture: 0.6,
-    maxTokens: 100,
-    messages: [
-      {
-        role: "system",
-        content: "You are a personal marketer for a software engineer. You can provide information about her",
-      },
-      ...chats,
-    ],
-  });
-
-  res.json({
-    output: result.data.choices[0].message,
-  });
-
-  result().catch(error => {
-    console.error('Failed to generate response:', error);
-    res.status(500).json({ error: 'Failed to generate response' });
-  });
+  try {
+    const response = await sendTextToOpenAI(req.body.text);
+    res.json({ reply: response });
+  } catch (err) {
+    console.error(err);
+    res.status(500).send({ error: 'Error connecting to OpenAI.' });
+  }
 });
 
 app.listen(port, () => {

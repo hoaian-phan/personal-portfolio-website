@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function App() {
+function Chatbot() {
   const [text, setText] = useState("");
   const [chat, setChat] = useState([]);
 
@@ -13,20 +13,28 @@ function App() {
     const currentMessages = []
     setText("");
 
-    const response = await fetch("http://localhost:8000/api/chatbot", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ text }),
-    });
+    try {
+      const response = await fetch("http://localhost:3001/api/chatbot", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text }),
+      });
 
-    const data = await response.json();
+      if (!response.ok) {
+        throw new Error("Error connecting to the server.");
+      }
 
-    setChat(state => [...state, { text: data.reply, user: "Chatbot" }]);
+      const data = await response.json();
+
+      setChat(state => [...state, { text: data.reply, user: "Chatbot" }]);
+    } catch (err) {
+      console.error(err);
+    }
   };
 
   return (
     <div className="App">
-      <h1>OpenAI Chatbot</h1>
+      <h1>Hi, this is Hoai-An's Chatbot</h1>
       <div className="chat-container">
         {chat.map((message, i) => (
           <p key={i}>
@@ -46,3 +54,5 @@ function App() {
     </div>
   );
 }
+
+export default Chatbot

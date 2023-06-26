@@ -1,13 +1,10 @@
 import { Configuration, OpenAIApi } from "openai";
 import express from "express";
-import bodyParser from "body-parser";
-import cors from "cors";
 import dotenv from 'dotenv';
 
 const app = express();
-const port = 8000;
-app.use(bodyParser.json());
-app.use(cors());
+const PORT = process.env.PORT || 3001
+app.use(express.json());
 dotenv.config();
 
 const configuration = new Configuration({
@@ -24,11 +21,11 @@ async function sendTextToOpenAI(text) {
     });
     return response.data.choices[0].text;
   } catch (error) {
-    console.log(error.message);
+    console.log(error.response.data);
   }
 }
 
-app.post('/api/chat', async (req, res) => {
+app.post('/api/chatbot', async (req, res) => {
   try {
     const response = await sendTextToOpenAI(req.body.text);
     res.json({ reply: response });
@@ -38,7 +35,7 @@ app.post('/api/chat', async (req, res) => {
   }
 });
 
-app.listen(port, () => {
-  console.log(`listening on port ${port}`);
+app.listen(PORT, () => {
+  console.log(`listening on port ${PORT}`);
 });
 

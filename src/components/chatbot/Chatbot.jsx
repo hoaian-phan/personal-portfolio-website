@@ -33,9 +33,10 @@ function Chatbot() {
   };
 
   return (
-    <div className="App">
-      <h1>Hi, this is Hoai-An's Chatbot</h1>
-      <div className="chat-container">
+    <div className="chatbot-container">
+      <h5>Hoai-An's Chatbot</h5>
+      <h6>powered by OpenAI</h6>
+      <div className="chatbot-window">
         {chat.map((message, i) => (
           <p key={i}>
             <strong>{message.user}: </strong>

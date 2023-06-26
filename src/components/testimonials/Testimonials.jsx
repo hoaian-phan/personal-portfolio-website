@@ -71,16 +71,16 @@ const Testimonials = () => {
 
       <div className="wrapper">
         <div className="container">
-          <Carousel classNameName="">
+          <Carousel className="">
             {
               data.map(({ id, image, name, title, company, review }) => {
                 return (
                   <Carousel.Item>
-                    <img classNameName="imgBox animate__animated"
+                    <img className="imgBox animate__animated"
                       src={image}
                       alt={name}
                     />
-                    <Carousel.Caption classNameName="carousel-caption animate__animated">
+                    <Carousel.Caption className="carousel-caption animate__animated">
                       <h2>{name}</h2>
                       <h4>{title} - {company}</h4>
                       <p className="py-3 px-5">{review}</p>

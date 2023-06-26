@@ -2,12 +2,11 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min'
 import $ from 'jquery'
 import Popper from 'popper.js'
-import ReactDOM from 'react-dom'
+import { createRoot } from 'react-dom/client';
 import App from './App'
 import './index.css'
 
-ReactDOM.render(<App />, document.querySelector('#root'))
-
+createRoot(document.getElementById('root')).render(<App />);
 
 // Highlight the navLink when scrolling
 document.getElementsByTagName('body')[0].onscroll = function () {

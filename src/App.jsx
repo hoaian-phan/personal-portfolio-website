@@ -9,6 +9,7 @@ import Testimonials from './components/testimonials/Testimonials'
 import Blog from './components/blog/Blog'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import Chatbot from './components/chatbot/Chatbot'
 import { runFireworks } from './lib/util'
 
 
@@ -18,6 +19,7 @@ const App = () => {
     <>
       <Header />
       <Nav />
+      <Chatbot />
       <About />
       <Experience />
       <Skills />
@@ -26,7 +28,7 @@ const App = () => {
       {/* <Blog /> */}
       <Contact />
       <Footer />
-    
+
     </>
   )
 }

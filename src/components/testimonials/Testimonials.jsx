@@ -63,27 +63,27 @@ const data = [
 
 const Testimonials = () => {
   return (
-    <section id='testimonials' class="mt-5">
+    <section id='testimonials' className="mt-5">
       <br /><br />
-      <h5 class="text-center">What others think about me and my skills</h5>
-      <h2 class="text-center"> Testimonials</h2>
+      <h5 className="text-center">What others think about me and my skills</h5>
+      <h2 className="text-center"> Testimonials</h2>
 
 
-      <div class="wrapper">
-        <div class="container">
-          <Carousel className="">
+      <div className="wrapper">
+        <div className="container">
+          <Carousel classNameName="">
             {
               data.map(({ id, image, name, title, company, review }) => {
                 return (
                   <Carousel.Item>
-                    <img className="imgBox animate__animated"
+                    <img classNameName="imgBox animate__animated"
                       src={image}
                       alt={name}
                     />
-                    <Carousel.Caption className="carousel-caption animate__animated">
+                    <Carousel.Caption classNameName="carousel-caption animate__animated">
                       <h2>{name}</h2>
                       <h4>{title} - {company}</h4>
-                      <p class="py-3 px-5">{review}</p>
+                      <p className="py-3 px-5">{review}</p>
                     </Carousel.Caption>
                   </Carousel.Item>
                 )

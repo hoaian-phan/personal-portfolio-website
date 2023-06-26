@@ -190,12 +190,12 @@ const Projects = () => {
     )
   }
   return (
-    <section id='portfolio' class="my-5">
+    <section id='portfolio' className="my-5">
       <br /><br />
-      <h5 class="text-center">What I Created</h5>
-      <h2 class="text-center pb-4">My Projects</h2>
+      <h5 className="text-center">What I Created</h5>
+      <h2 className="text-center pb-4">My Projects</h2>
 
-      <div class="grid">{myProjects}</div>
+      <div className="grid">{myProjects}</div>
     </section>
   )
 }

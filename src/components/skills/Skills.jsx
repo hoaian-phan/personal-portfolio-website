@@ -3,15 +3,15 @@ import React from 'react'
 // Skills with 3 categories: languages, frameworks and tools
 const Skills = () => {
   return (
-    <section id='skills' class="my-5">
+    <section id='skills' className="my-5">
       <br /><br />
-      <h5 class="text-center"> What I Know</h5>
-      <h2 class="text-center">My Technical Skills</h2>
+      <h5 className="text-center"> What I Know</h5>
+      <h2 className="text-center">My Technical Skills</h2>
 
-      <div class="container my-5">
-        <div class="row d-flex align-items-center justify-content-center">
-          <div class="my-card col-10 col-sm-12 col-lg-3 pt-3 m-4">
-            <h4 class="text-center">Languages</h4>
+      <div className="container my-5">
+        <div className="row d-flex align-items-center justify-content-center">
+          <div className="my-card col-10 col-sm-12 col-lg-3 pt-3 m-4">
+            <h4 className="text-center">Languages</h4>
             <div>
               <ul>
                 <li>Python</li>
@@ -26,8 +26,8 @@ const Skills = () => {
 
 
 
-          <div class="my-card col-10 col-sm-12 col-lg-3 pt-3 m-4">
-            <h4 class="text-center">Libraries and Frameworks</h4>
+          <div className="my-card col-10 col-sm-12 col-lg-3 pt-3 m-4">
+            <h4 className="text-center">Libraries and Frameworks</h4>
             <div>
               <ul>
                 <li>Flask</li>
@@ -42,8 +42,8 @@ const Skills = () => {
 
 
 
-          <div class="my-card col-10 col-sm-12 col-lg-3 pt-3 m-4">
-            <h4 class="text-center">Industry Tools</h4>
+          <div className="my-card col-10 col-sm-12 col-lg-3 pt-3 m-4">
+            <h4 className="text-center">Industry Tools</h4>
             <div>
               <ul>
                 <li>Git / GitHub</li>

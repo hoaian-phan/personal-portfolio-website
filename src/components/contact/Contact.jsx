@@ -3,28 +3,28 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section id='contact' class="mt-5">
+    <section id='contact' className="mt-5">
       <br /><br />
-      <h5 class="text-center">Let's connect</h5>
-      <h2 class="text-center">Contact Me</h2>
+      <h5 className="text-center">Let's connect</h5>
+      <h2 className="text-center">Contact Me</h2>
 
-      <div class="container p-4">
-        <form class="inner" target="_blank" action="https://formsubmit.co/hoaian.phan.sde2022@gmail.com" method="POST">
-          <div class="form-group">
-            <div class="form-row">
-              <div class="col p-1">
-                <input type="text" name="name" class="form-control contact-form" placeholder="Full Name" required />
+      <div className="container p-4">
+        <form className="inner" target="_blank" action="https://formsubmit.co/hoaian.phan.sde2022@gmail.com" method="POST">
+          <div className="form-group">
+            <div className="form-row">
+              <div className="col p-1">
+                <input type="text" name="name" className="form-control contact-form" placeholder="Full Name" required />
               </div>
-              <div class="col p-1">
-                <input type="email" name="email" class="form-control contact-form" placeholder="Email Address" required />
+              <div className="col p-1">
+                <input type="email" name="email" className="form-control contact-form" placeholder="Email Address" required />
               </div>
             </div>
           </div>
-          <div class="col form-group p-1">
-            <textarea placeholder="Your Message" class="form-control contact-form" name="message" rows="5" required></textarea>
+          <div className="col form-group p-1">
+            <textarea placeholder="Your Message" className="form-control contact-form" name="message" rows="5" required></textarea>
           </div>
-          <div class="text-center p-4">
-            <button type="submit" class="btn btn-light bg-navy me-1 mt-3 text-light-blue">Send Message</button>
+          <div className="text-center p-4">
+            <button type="submit" className="btn btn-light bg-navy me-1 mt-3 text-light-blue">Send Message</button>
           </div>
         </form>
       </div>
